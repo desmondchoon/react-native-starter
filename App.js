@@ -17,7 +17,7 @@ export default class App extends Component {
     return (
          <Provider store={Store}>
           <NavigationContainer >
-            <Stack.Navigator initialRouteName="Hello">
+            <Stack.Navigator initialRouteName="Home">
               <Stack.Screen name="Home" component={Home} />
             </Stack.Navigator>
           </NavigationContainer>
